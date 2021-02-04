@@ -8,7 +8,7 @@ fix conflict with libc++_shared.so between ZoomSDK and ReactNative (other that h
 
 ## Quick step
 1. follow official docs: https://marketplace.zoom.us/docs/sdk/native-sdks/android/getting-started/install-sdk
-2. extract all `zip` file
+2. download this and extract all `zip` file
 3. replace official SDK by this
 ![step2](img/1.png)
 3. go to `MainApplication` and add `SoLoader.loadLibrary("zoom")`
